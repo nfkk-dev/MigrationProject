@@ -2,7 +2,7 @@
 	"name": "SCH_TRIGGER",
 	"properties": {
 		"annotations": [],
-		"runtimeState": "Stopped",
+		"runtimeState": "Started",
 		"pipelines": [
 			{
 				"pipelineReference": {
