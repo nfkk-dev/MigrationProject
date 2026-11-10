@@ -1,0 +1,7 @@
+{
+	"name": "integrationRuntimeMig",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "Self-hosted IR for Desjardins Onprem Migration"
+	}
+}

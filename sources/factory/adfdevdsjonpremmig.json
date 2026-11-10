@@ -1,0 +1,15 @@
+{
+	"name": "adfdevdsjonpremmig",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5a225f2f-b239-4104-b760-b3e5daf2b862",
+		"tenantId": "e906e840-da53-4f69-a290-7cade112e023"
+	}
+}

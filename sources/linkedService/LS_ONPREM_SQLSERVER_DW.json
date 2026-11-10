@@ -1,0 +1,21 @@
+{
+	"name": "LS_ONPREM_SQLSERVER_DW",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "LAPTOP-VN9P55UO\\SQLEXPRESS",
+			"database": "DsjSqlMigration",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "NFKK",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0YzUzMjJlMS0yM2RhLTQzYzYtODk2OS00ZWMwM2NmNDU2MzUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntimeMig",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
